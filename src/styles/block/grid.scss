@@ -51,4 +51,51 @@
       }
     }
   }
+
+  &__blur-load {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    &--picture-small-1 {
+      background-image: url(../images/optimized/now-on-view-1-small.png);
+    }
+
+    &--picture-small-2 {
+      background-image: url(../images/optimized/now-on-view-2-small.png);
+    }
+
+    &--picture-small-3 {
+      background-image: url(../images/optimized/now-on-view-3-small.png);
+    }
+
+    &--picture-small-4 {
+      background-image: url(../images/optimized/now-on-view-4-small.png);
+    }
+
+    &--picture-small-5 {
+      background-image: url(../images/optimized/now-on-view-5-small.png);
+    }
+
+    &--picture-small-6 {
+      background-image: url(../images/optimized/now-on-view-6-small.png);
+    }
+
+    &--picture-small-7 {
+      background-image: url(../images/optimized/now-on-view-7-small.png);
+    }
+
+    & > img {
+      opacity: 0;
+      transition: all 0.5s ease-in-out;
+    }
+
+    &.loaded > img {
+      opacity: 1;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
 }

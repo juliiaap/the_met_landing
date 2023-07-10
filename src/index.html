@@ -20,9 +20,10 @@
       page__view
       page__view--header
       header-section
-      header-section--image"
+      header-section__image--large"
     >
-      <header class="header header-section__header">
+      <div class="header-section__image--small"></div>
+      <header class="header-section__header header">
         <a href="#" class="header__logo">
           The
           <br>
@@ -38,19 +39,19 @@
             </div>
             <div class="contacts__container--phone">
               <a href="#menu">
-                <img 
-                  src="./images/phone.svg" 
-                  alt="phone" 
+                <img
+                  src="./images/phone.svg"
+                  alt="phone"
                   class="icon"
                 >
               </a>
             </div>
           </div>
-          
+    
           <a href="#menu" class="icon header__nav--menu"></a>
         </div>
       </header>
-      
+    
       <h1 class="header-section__title">
         Welcome
         <br>
@@ -254,23 +255,29 @@
             <div class="
               grid__item
               grid__item--tablet-1-4
-              grid__item--desktop-1-8"
+              grid__item--desktop-1-8
+              grid__blur-load
+              grid__blur-load--picture-small-1"
             >
               <img 
-                src="./images/the-met/now-on-view_1.svg" 
+                src="./images/optimized/now-on-view-1_opt.png" 
                 alt="A New Look"
                 class="category__picture category__picture--position"
+                loading="lazy"
               >
             </div>
             <div class="
               grid__item
               grid__item--tablet-5-6
-              grid__item--desktop-9-12"
+              grid__item--desktop-9-12
+              grid__blur-load
+              grid__blur-load--picture-small-2"
             >
               <img 
-                src="./images/the-met/now-on-view_2.svg"
+                src="./images/optimized/now-on-view-2.png"
                 alt="Picture 2"
                 class="category__picture"
+                loading="lazy"
               >
             </div>
           </div>
@@ -287,40 +294,50 @@
         <div class="category offline-view__block">
           <div class="
             category__pictures
+            category__pictures--middle
             grid
             grid--middle-section"
           >
             <div class="
               grid__item
               grid__item--tablet-1-2
-              grid__item--desktop-1-4"
+              grid__item--desktop-1-4
+              grid__blur-load
+              grid__blur-load--picture-small-3"
             >
               <img 
-                src="./images/the-met/now-on-view_3.svg" 
+                src="./images/optimized/now-on-view-3.png" 
                 alt="A New Look"
                 class="category__picture"
+                loading="lazy"
               >
             </div>
             <div class="
               grid__item
               grid__item--tablet-3-4
-              grid__item--desktop-5-8"
+              grid__item--desktop-5-8
+              grid__blur-load
+              grid__blur-load--picture-small-4"
             >
               <img 
-                src="./images/the-met/now-on-view_4.svg" 
+                src="./images/optimized/now-on-view-4.png" 
                 alt="A New Look"
                 class="category__picture"
+                loading="lazy"
               >
             </div>
             <div class="
               grid__item
               grid__item--tablet-5-6
-              grid__item--desktop-9-12"
+              grid__item--desktop-9-12
+              grid__blur-load
+              grid__blur-load--picture-small-5"
             >
               <img 
-                src="./images/the-met/now-on-view_5.svg"
+                src="./images/optimized/now-on-view-5.png"
                 alt="Picture 2"
                 class="category__picture"
+                loading="lazy"
               >
             </div>
           </div>
@@ -339,23 +356,29 @@
             <div class="
               grid__item
               grid__item--tablet-1-2
-              grid__item--desktop-1-4"
+              grid__item--desktop-1-4
+              grid__blur-load
+              grid__blur-load--picture-small-6"
             >
               <img 
-                src="./images/the-met/now-on-view_6.svg" 
+                src="./images/optimized/now-on-view-6.png" 
                 alt="A New Look"
                 class="category__picture"
+                loading="lazy"
               >
             </div>
             <div class="
               grid__item
               grid__item--tablet-3-6
-              grid__item--desktop-5-12"
+              grid__item--desktop-5-12
+              grid__blur-load
+              grid__blur-load--picture-small-7"
             >
               <img 
-                src="./images/the-met/now-on-view_7.svg"
+                src="./images/optimized/now-on-view-7.png"
                 alt="Picture 2"
                 class="category__picture category__picture--position-7"
+                loading="lazy"
               >
             </div>
           </div>
@@ -421,12 +444,15 @@
           >
             <div class="
               category__pictures
-              category__pictures--online-view"
+              category__pictures--online-view
+              category__blur-load
+              category__blur-load--picture-small-1"
             >
               <img 
-                src="./images/the-met/more-to-explore-online_1.svg" 
+                src="./images/optimized/more-to-explore-1.png" 
                 alt="Exhibit 1"
                 class="category__picture category__picture--online-block"
+                loading="lazy"
               >
             </div>
 
@@ -448,12 +474,15 @@
           >
             <div class="
               category__pictures
-              category__pictures--online-view"
+              category__pictures--online-view
+              category__blur-load
+              category__blur-load--picture-small-2"
             >
               <img 
-                src="./images/the-met/more-to-explore-online_2.svg" 
+                src="./images/optimized/more-to-explore-2.png" 
                 alt="Exhibit 2"
                 class="category__picture category__picture--online-block"
+                loading="lazy"
               >
             </div>
 
@@ -475,12 +504,15 @@
           >
             <div class="
               category__pictures
-              category__pictures--online-view"
+              category__pictures--online-view
+              category__blur-load
+              category__blur-load--picture-small-3"
             >
               <img 
-                src="./images/the-met/more-to-explore-online_3.svg" 
+                src="./images/optimized/more-to-explore-3.png" 
                 alt="Exhibit 3"
                 class="category__picture category__picture--online-block"
+                loading="lazy"
               >
             </div>
 
@@ -658,6 +690,31 @@
           document.body.classList.add('page__menu--window');
         } else {
           document.body.classList.remove('page__menu--window');
+        }
+      });
+
+      const categoryBlur = document.querySelectorAll('.category__blur-load');
+      const gridBlur = document.querySelectorAll('.grid__blur-load');
+      
+      function changeHeaderBackground() {
+        const div = document.querySelector('.header-section__image--small');
+
+        div.classList.add('imgLoaded');
+      }
+
+      window.addEventListener('load', changeHeaderBackground);
+
+      [...categoryBlur].concat([...gridBlur]).forEach(div => {
+        const img = div.querySelector('img');
+
+        function loaded() {
+          div.classList.add('loaded');
+        };
+
+        if (img.complete) {
+          loaded();
+        } else {
+          img.addEventListener('load', loaded);
         }
       });
     </script>
