@@ -18,6 +18,8 @@
     }
 
     &--online-view {
+      max-height: 320px;
+
       @include onTablet {
         margin-bottom: 32px;
       }
